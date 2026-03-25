@@ -13,5 +13,6 @@ if (total_percentage>=40):   #check total percentage is greater than 40
         print("You have passed",total_percentage)
     else:
         print("You have failed",total_percentage)
+        
 else:
     print("You have failed",total_percentage)
