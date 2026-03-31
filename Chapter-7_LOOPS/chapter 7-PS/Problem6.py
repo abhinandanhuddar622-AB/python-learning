@@ -5,5 +5,5 @@
 n=int(input("Enter number: "))
 fact=1                         #initial value of fact is 1 because 0! = 1 or miltiplication 
 for i in range(1,n+1):         #n+1 because we want to include n
-    fact=fact*i
+    fact=fact*i                #fact is multiplied by i if i = 1 then fact=1*1=1 and if i=2 then fact=1*2=2
 print(fact)
