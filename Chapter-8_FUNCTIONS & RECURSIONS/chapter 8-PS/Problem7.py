@@ -5,8 +5,8 @@ def remove_word(l,word):
     n=[]
     for i in l:
         if not(i==word):
-            n.append(i.strip(word))    #strip method remove word 
+            n.append(i.strip(word))    #strip method remove word   
     return n
-
+    
 l=["abhi","samA","adi","abhinandan"]
 print(remove_word(l,"A"))
