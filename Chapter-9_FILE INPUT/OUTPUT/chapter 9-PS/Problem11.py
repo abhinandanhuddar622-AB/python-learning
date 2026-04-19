@@ -1,7 +1,7 @@
 # 11. Write a python program to rename a file to “renamed_by_ python.txt.
 
-with open ("old.txt") as f:
+with open ("old.txt") as f:     #open the file
     data=f.read()
 
-with open("renamed_by_python.txt","w") as f:
+with open("renamed_by_python.txt","w") as f:   #this is a new file, renamed 
     f.write(data)

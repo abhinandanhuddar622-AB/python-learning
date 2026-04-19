@@ -10,3 +10,4 @@ f=open("read_file.txt","r")       #r means read mode and open the file
 data=f.read()
 print(data)
 f.close()                         #close the file
+
