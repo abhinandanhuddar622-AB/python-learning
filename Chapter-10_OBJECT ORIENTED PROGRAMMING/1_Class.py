@@ -1,14 +1,14 @@
 class employee:
-    sallary=10000     #class attribute
+    salary=10000     #class attribute
     age=22
 
 Abhi =employee()
 Abhi.name="Abhi"      # instance attribute
-print(Abhi.name,Abhi.sallary,Abhi.age)
+print(Abhi.name,Abhi.salary,Abhi.age)
 
 Raju=employee()
 Raju.name="Raju"
-print(Raju.name,Raju.sallary,Raju.age)
+print(Raju.name,Raju.salary,Raju.age)
 
-#here the name is the instance attribute and sallary and age is the class attribute 
+#here the name is the instance attribute and salary and age is the class attribute 
 # that can directly belong to the class
