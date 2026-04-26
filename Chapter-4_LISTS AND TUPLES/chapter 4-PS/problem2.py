@@ -1,4 +1,5 @@
 # 2).Write a program to store six marks in a list entered by the user and sort them in descending order.
+
 marks=[]
 m1=int(input("Enter marks: "))
 marks.append(m1)
