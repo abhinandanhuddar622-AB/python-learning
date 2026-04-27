@@ -14,7 +14,7 @@ class Complex:
         imag = self.r * c2.i + self.i * c2.r
         return Complex(real, imag)
     def __str__(self):
-        return (f"self.i+self.r")
+        return (f"self.i + self.r")
         
 a=complex(1,2)
 b=complex(3,4)
