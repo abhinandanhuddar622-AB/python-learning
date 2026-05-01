@@ -1,5 +1,4 @@
 def main():
-
     try:
         a=int(input("Enter number: "))
         print(a)
@@ -11,5 +10,6 @@ def main():
 
     finally:    
         print("I am inside of finally")
+
 main()
 
