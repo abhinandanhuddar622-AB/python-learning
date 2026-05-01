@@ -6,6 +6,10 @@ def fun():
 fun()
 print(a)          # prints the same updated global value (3)
 
+#OUTPUT
+# 3
+# 3
+
 
 
 
@@ -17,3 +21,8 @@ def fun():
     print(a)      # prints 3 (local value)
 fun()
 print(a)          # prints 33 (global value remains unchanged)
+
+# OUTPUT
+# IF 'global a' IS NOT USED.....
+# 3
+# 33
