@@ -1,0 +1,1 @@
+its content of 1.txt file
