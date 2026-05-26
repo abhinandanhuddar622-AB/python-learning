@@ -1,0 +1,23 @@
+# 6. Run pip freeze for the system interpreter. Take the contents and create a similar
+#    virtualenv.
+
+# Run this cmd
+pip freeze > requirements.txt
+# pip freeze command shows all installed Python packages
+# and their versions from the current system interpreter.
+
+# Example:
+Django==5.0
+numpy==2.1.0
+
+# Explanation:
+pip freeze           -> Gets all installed packages
+>                    -> Redirects output into file
+requirements.txt     -> Stores package names and versions
+
+
+# virtualenv abhienv
+
+# Explanation:
+# virtualenv   -> Creates isolated Python environment
+# abhienv      -> Name of virtual environment
