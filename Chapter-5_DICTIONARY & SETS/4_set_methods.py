@@ -40,7 +40,8 @@ s3 = s1.clear()             #remove all key and value
 print(s3, type(s3))
 
 #discard()
-s1 = {1, 5, 32, 54,5, 5, 5}
-s2 = {1, 5, 32, 54,5, 5, 5, "Abhi"}
-s3 = s1.discard(5)        #remove 5 from s1 but discard() does NOT return value
-print(s3, type(s3))        #discard() does NOT return value
+s5 = {1, 5, 32, 54, 5, 5, 5}
+
+s5.discard(7674)        #remove 5 from s1 but discard() does NOT return value
+# discard is only remove if 7674 is prasent
+print(s5, type(s5))        #discard() does NOT return value
